@@ -1,0 +1,7 @@
+ProdutoId;Descricao;Valor;FornecedorId;RazaoSocial;Fantasia;CNPJ
+1;Prod 01;258,65;4;Fornecedor 04;Forne 04;44444444444
+2;Prod 02;25,35;5;Fornecedor 05;Forne 05;55555555555
+3;Prod 03;754,50;6;Fornecedor 06;Forne 06;66666666666
+4;Prod 04;542,69;7;Fornecedor 07;Forne 07;77777777777
+5;Prod 05;10,36;8;Fornecedor 08;Forne 08;88888888888
+6;Prod 06;34,56;3;Fornecedor 03;Forne 03;33333333333
