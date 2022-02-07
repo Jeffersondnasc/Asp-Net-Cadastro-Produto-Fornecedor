@@ -14,6 +14,7 @@ namespace ProjectCRUD.Models
         public decimal? Valor { get; set; }
 
         public int FornecedorId { get; set; }
+        
         public virtual Fornecedor Fornecedor { get; set; }
     }
 }

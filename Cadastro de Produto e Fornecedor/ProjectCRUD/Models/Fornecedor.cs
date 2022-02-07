@@ -7,10 +7,10 @@ namespace ProjectCRUD.Models
         [Key]
         public int FornecedorId { get; set; }
 
-        [MaxLength(300)]
+        [MaxLength(350)]
         public string RazaoSocial { get; set; }
 
-        [MaxLength(300)]
+        [MaxLength(350)]
         public string Fantasia { get; set; }
 
         [MaxLength(50)]

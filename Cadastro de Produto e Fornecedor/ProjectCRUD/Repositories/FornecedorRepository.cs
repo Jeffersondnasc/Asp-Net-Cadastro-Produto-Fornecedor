@@ -40,7 +40,7 @@ namespace ProjectCRUD.Repositories
 
         public async Task<FornecedorViewModel> FindById(int id)
         {
-            var fornecedor = new FornecedorViewModel();
+            FornecedorViewModel fornecedor = new FornecedorViewModel();
 
             var forn = await _db.Fornecedor.Where(f => f.FornecedorId == id).FirstOrDefaultAsync();
 
@@ -57,7 +57,7 @@ namespace ProjectCRUD.Repositories
 
         public async Task<FornecedorViewModel> Add(FornecedorViewModel fornecedor)
         {
-            var forn = new Fornecedor()
+            Fornecedor forn = new Fornecedor()
             {
                 RazaoSocial = fornecedor.RazaoSocial,
                 Fantasia = fornecedor.Fantasia,
